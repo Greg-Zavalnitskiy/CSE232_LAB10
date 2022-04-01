@@ -8,6 +8,7 @@
 #include <map>
 std::vector<int> Fibonacci(int n)
 {
+    //Fibonacci is a function that takes an integer n as a parameter and returns the first n fibonacci sequences
     std::vector<int> output(n);
     if (n==1)
     {
